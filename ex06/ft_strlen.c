@@ -6,18 +6,18 @@
 /*   By: manavarr <manavarr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 23:01:05 by manavarr          #+#    #+#             */
-/*   Updated: 2022/03/23 23:10:13 by manavarr         ###   ########.fr       */
+/*   Updated: 2022/03/27 17:19:15 by manavarr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strlen(char *str)
 {
-	int	prov;
+	int	temp;
 
 	while (*str != '\0')
 	{
 		str++;
-		prov++;
+		temp++;
 	}
-	return (prov);
+	return (temp);
 }
