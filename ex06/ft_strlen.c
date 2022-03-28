@@ -6,7 +6,7 @@
 /*   By: manavarr <manavarr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 23:01:05 by manavarr          #+#    #+#             */
-/*   Updated: 2022/03/27 17:19:15 by manavarr         ###   ########.fr       */
+/*   Updated: 2022/03/27 20:39:05 by manavarr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@ int	ft_strlen(char *str)
 {
 	int	temp;
 
+	temp = 0;
 	while (*str != '\0')
 	{
 		str++;
